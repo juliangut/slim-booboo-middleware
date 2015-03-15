@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/juliangut/slim-booboo-middleware.svg?branch=master)](https://travis-ci.org/juliangut/slim-booboo-middleware)
+[![Code Climate](https://codeclimate.com/github/juliangut/slim-booboo-middleware/badges/gpa.svg)](https://codeclimate.com/github/juliangut/slim-booboo-middleware)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/juliangut/slim-booboo-middleware/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/juliangut/slim-booboo-middleware/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/juliangut/slim-booboo-middleware/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/juliangut/slim-booboo-middleware/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/juliangut/slim-booboo-middleware/v/stable.svg)](https://packagist.org/packages/juliangut/slim-booboo-middleware)
