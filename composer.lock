@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f3487cd63ac513dcb55404d4945d642e",
+    "hash": "3c031fbea3fa1488d7bd9500d20ccb4f",
     "packages": [
         {
             "name": "league/booboo",
@@ -1658,6 +1658,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.4"
+    },
     "platform-dev": []
 }
