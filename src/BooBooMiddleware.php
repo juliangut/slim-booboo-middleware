@@ -100,25 +100,12 @@ class BooBooMiddleware extends Middleware
             throw new \InvalidArgumentException(sprintf('Formatter "%s" is not supported', $formatter));
         }
 
-        switch ($formatter) {
-            case 'command-line':
-                $formatter = new CommandLineFormatter();
-                break;
-            case 'html':
-                $formatter = new HtmlFormatter();
-                break;
-            case 'html-table':
-                $formatter = new HtmlTableFormatter();
-                break;
-            case 'json':
-                $formatter = new JsonFormatter();
-                break;
-            case 'null':
-                $formatter = new NullFormatter();
-                break;
-        }
+        $formatterName = sprintf(
+            'League\BooBoo\Formatter\\%s',
+            implode('', array_map('ucfirst', explode('-', $formatter))) . 'Formatter'
+        );
 
-        return $formatter;
+        return new $formatterName();
     }
 
     /**
