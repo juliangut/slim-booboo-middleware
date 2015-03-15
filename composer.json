@@ -1,0 +1,42 @@
+{
+    "name": "juliangut/slim-booboo-middleware",
+    "description": "Slim Framework BooBoo middleware",
+    "keywords": [
+        "slim",
+        "framework",
+        "middleware",
+        "booboo",
+        "error",
+        "handler"
+    ],
+    "homepage": "http://github.com/juliangut/slim-booboo-middleware",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Julián Gutiérrez",
+            "email": "juliangut@gmail.com",
+            "homepage": "http://juliangut.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "~2.5",
+        "league/booboo": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5",
+        "squizlabs/php_codesniffer": "~2",
+        "phpmd/phpmd": "~2.2",
+        "sebastian/phpcpd": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jgut\\Slim\\Middleware\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jgut\\Slim\\MiddlewareTests\\": "tests/MiddlewareTests/"
+        }
+    }
+}
